@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "asia.draxon.attackcounter.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PlayerEntityMixin",
+    "LivingEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

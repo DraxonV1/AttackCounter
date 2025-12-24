@@ -1,0 +1,16 @@
+{
+  "key.attackcounter.toggle": "Toggle AttackCounter",
+  "category.attackcounter": "AttackCounter",
+  "attackcounter.enabled": "AttackCounter Enabled",
+  "attackcounter.disabled": "AttackCounter Disabled",
+  "attackcounter.config.title": "AttackCounter Configuration",
+  "attackcounter.config.enabled": "Enabled",
+  "attackcounter.config.comboResetTime": "Combo Reset Time (ticks)",
+  "attackcounter.config.displayDuration": "Display Duration (ticks)",
+  "attackcounter.config.showCombo": "Show Combo",
+  "attackcounter.config.showHitsDealt": "Show Hits Dealt",
+  "attackcounter.config.showHitsReceived": "Show Hits Received",
+  "attackcounter.config.showDamageDealt": "Show Damage Dealt",
+  "attackcounter.config.showDamageReceived": "Show Damage Received",
+  "attackcounter.config.hudOffsetY": "HUD Offset Y"
+}

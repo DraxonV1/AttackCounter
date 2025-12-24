@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "attackcounter",
+  "version": "${version}",
+  "name": "AttackCounter",
+  "description": "Tracks combo hits and damage statistics for player combat",
+  "authors": [
+    "DraxonV1"
+  ],
+  "contact": {
+    "homepage": "https://attackcounter.mc.draxon.asia",
+    "sources": "https://github.com/DraxonV1/AttackCounter"
+  },
+  "license": "MIT",
+  "icon": "assets/attackcounter/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "asia.draxon.attackcounter.AttackCounterClient"
+    ]
+  },
+  "mixins": [
+    "attackcounter.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.5",
+    "java": ">=21",
+    "fabric-api": ">=0.128.2"
+  },
+  "custom": {
+    "modmenu": {
+      "badges": [ "client" ],
+      "parent": {
+        "id": "attackcounter",
+        "name": "AttackCounter",
+        "description": "Combat statistics tracker"
+      }
+    }
+  }
+}
