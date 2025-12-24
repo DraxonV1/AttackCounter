@@ -37,7 +37,7 @@ jobs:
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
-          name: F3Commands ${{ github.ref_name }}
+          name: AttackCounter ${{ github.ref_name }}
           body_path: CHANGELOG.md
           files: build/libs/*.jar
         env:
